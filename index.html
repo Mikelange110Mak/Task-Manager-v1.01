@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Task Manager</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__body">
+         <h2 class="header__title">Task Manager</h2>
+      </div>
+   </header>
+   <div class="wrapper">
+      <main class="main">
+         <article class="set-element">
+            <div class="set-element__body">
+               <form class="set-element__form" action="#">
+                  <input tabindex="1" class="set-element__taskname" required placeholder="Enter task here"
+                     autocomplete="off" type="text" name="usertask">
+                  <button class="set-element__add">Add Task</button>
+               </form>
+            </div>
+         </article>
+         <article class="task-list">
+            <div class="task-list__body">
+               <ol class="task-list__list">
+                  <li class="task-list__item">
+                  </li>
+               </ol>
+               <form class="task-list__button" action="">
+                  <button class="task-list__delete-all">Delete ALL Tasks</button>
+               </form>
+            </div>
+         </article>
+      </main>
+   </div>
+   <footer class="footer">
+      <div class="footer__body">
+         <div class="footer__info">Task Manager by <a class="footer__author" target="_blank"
+               href="https://t.me/MagicPark">Mikelange110</a></div>
+         <div class="footer__about">2022</div>
+      </div>
+   </footer>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
